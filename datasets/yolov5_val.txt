@@ -1,0 +1,8 @@
+/home/wang/datasets/VOC2007/JPEGImages/33.jpg
+/home/wang/datasets/VOC2007/JPEGImages/20.jpg
+/home/wang/datasets/VOC2007/JPEGImages/11.jpg
+/home/wang/datasets/VOC2007/JPEGImages/1.xml
+/home/wang/datasets/VOC2007/JPEGImages/13.jpg
+/home/wang/datasets/VOC2007/JPEGImages/24.jpg
+/home/wang/datasets/VOC2007/JPEGImages/17.jpg
+/home/wang/datasets/VOC2007/JPEGImages/6.jpg
