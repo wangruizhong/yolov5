@@ -476,9 +476,9 @@ def train(hyp, opt, device, callbacks):  # hyp is path/to/hyp.yaml or hyp dictio
 
 def parse_opt(known=False):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', type=str, default='weights/yolov5s.pt', help='initial weights path')
-    parser.add_argument('--cfg', type=str, default='models/dog.yaml', help='model.yaml path')
-    parser.add_argument('--data', type=str, default='data/dog.yaml', help='dataset.yaml path')
+    parser.add_argument('--weights', type=str, default=ROOT / 'weights/yolov5s.pt', help='initial weights path')
+    parser.add_argument('--cfg', type=str, default=ROOT / 'models/dog.yaml', help='model.yaml path')
+    parser.add_argument('--data', type=str, default=ROOT / 'data/dog.yaml', help='dataset.yaml path')
     parser.add_argument('--hyp', type=str, default=ROOT / 'data/hyps/hyp.scratch-low.yaml', help='hyperparameters path')
     parser.add_argument('--epochs', type=int, default=50)
     parser.add_argument('--batch-size', type=int, default=-1, help='total batch size for all GPUs, -1 for autobatch')
