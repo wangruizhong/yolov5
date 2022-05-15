@@ -211,9 +211,9 @@ def run(
 def parse_opt():
     print("ROOT",ROOT)
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'weights/best.pt', help='model path(s)')
-    parser.add_argument('--source', type=str, default=ROOT / 'datasets/image/dog.jpeg', help='file/dir/URL/glob, 0 for webcam')
-    parser.add_argument('--data', type=str, default=ROOT / 'data/dog.yaml', help='(optional) dataset.yaml path')
+    parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'weights/yolov5s.pt', help='model path(s)')
+    parser.add_argument('--source', type=str, default=ROOT / 'datasets/image/car.jpeg', help='file/dir/URL/glob, 0 for webcam')
+    parser.add_argument('--data', type=str, default=ROOT / 'data/coco128.yaml', help='(optional) dataset.yaml path')
     parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[640], help='inference size h,w')
     parser.add_argument('--conf-thres', type=float, default=0.25, help='confidence threshold')
     parser.add_argument('--iou-thres', type=float, default=0.45, help='NMS IoU threshold')
